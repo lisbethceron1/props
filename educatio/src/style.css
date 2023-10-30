@@ -1,0 +1,8 @@
+html,body{
+    background-color: rgb(117, 136, 178);
+}
+.Avatar{
+margin: 20px;
+
+border-radius: 50%;
+}
