@@ -1,17 +1,23 @@
 import React from "react";
 import  ReactDOM from "react-dom/client";
-import {App} from './helloadso'
+
 
 import './style.css'
-import { Avatar } from "./FirsApp";
-import { FirsApp } from "./profesorMateria";
+import { FirsApp } from "./FirsApp";
+import { Avatar}  from "./FirsApp";
 
-import { Profesor } from "./profesorApp";
+
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
-        {/* <Avatar /> */}
+         
+         <Avatar />
+         <FirsApp name= "lisbeth"/>
         
-        <Profesor/>
+     
+      
+        
+    
     </React.StrictMode>
 )
